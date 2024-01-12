@@ -11,7 +11,7 @@ router.get('/verify/:id/:token', verify);
 
 //endpoint to login a registered user
 router.post('/login', logIn);
-
+   
 //endpoint for forget Password
 router.post('/forgot', forgotpassword);
 
